@@ -1,0 +1,96 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body{
+  font-family:Noto Sans KR;
+  font-style:black;
+}
+.container{
+  padding-top: 20px;
+}
+h1{
+  font-family: Noto Sans KR;
+  font-style: black;
+}
+h2{
+  font-family: Noto Sans KR;
+  font-style: bold;
+}
+#logo {
+  width: 1000px;
+}
+#articleimg {
+  width: 300px;
+}
+#login {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: Noto Sans KR;
+  text-align: left;
+  color: #ffffff;
+}
+#lotext {
+  text-align: left;
+  color: #ffffff;
+}
+#form {
+  width: 300px;
+}
+#domi {
+  font-family: Noto Sans KR;
+  font-style: black;
+  font-size: 100px;
+  color: #ffffff;
+  text-align: center;
+}
+#control {
+  padding-bottom: 50px;
+  text-align: center;
+  bottom: 8px;
+}
+#container {
+  position: relative;
+}
+.cover {
+  position: relative;
+  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  width: 100%;
+}
+.cover.full-window {
+  margin-top: 15%;
+  margin-left: 25%;
+  text-align: center;
+  width: 50%;
+}
+.white{
+  font-size: 20px;
+  color: white;
+}
+.gunimg{
+  width: 200px;
+}
+.errdesc{
+  font-size: 30px;
+}
+.img{
+  width: 90px;
+}
+.img5{
+  width: 80px;
+}
+.up10{
+  margin-top: -25px;
+}
+.err404_1{
+  color: #FF4D05;
+}
+.err404_2{
+  color: #20B2AA;
+}
+.little{
+  font-size: 10px;
+  color: #C0C0C0;
+}
+.width100p{
+  width: 100%;
+}
