@@ -35,7 +35,7 @@
     <div class="cover full-window">
       <div class="col-md-12 width100p">
         <div class='text-center'>
-          <strong><div id="domi"><strong class="err404_1">4</strong><img class="img up10" src="../static/img/common/no-sign.png" alt="0" /><strong class="err404_2">3</strong></div><div class='white errdesc'>Forbidden!</div></strong>
+          <strong><div id="domi"><strong class="err404_1">4</strong><img class="img up10" src="/static/img/common/no-sign.png" alt="0" /><strong class="err404_2">3</strong></div><div class='white errdesc'>Forbidden!</div></strong>
           <div class="white">
             삑, 삑, 삑!<br />금지된_접근이_감지되었습니다(진지)
           </div>

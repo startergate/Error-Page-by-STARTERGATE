@@ -16,7 +16,7 @@
     <link rel="apple-touch-icon" sizes="144x144" href="/static/img/favicon/donote/apple-icon-144x144.png">
     <link rel="apple-touch-icon" sizes="152x152" href="/static/img/favicon/donote/apple-icon-152x152.png">
     <link rel="apple-touch-icon" sizes="180x180" href="/static/img/favicon/donote/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="/static/img/favicon/donote/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/static/img/favicon/donote/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon/donote/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/static/img/favicon/donote/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon/donote/favicon-16x16.png">
@@ -35,7 +35,7 @@
     <div class="cover full-window">
       <div class="col-md-12">
         <div class='text-center'>
-          <strong><div id="domi"><strong class="err404_1">4</strong><img class="img up10" src="../static/img/common/pacman-red.png" alt="0" /><strong class="err404_2">4</strong></div><div class='white errdesc'>Not Found!</div></strong>
+          <strong><div id="domi"><strong class="err404_1">4</strong><img class="img up10" src="/static/img/common/pacman-red.png" alt="0" /><strong class="err404_2">4</strong></div><div class='white errdesc'>Not Found!</div></strong>
           <div class="white">
             여기엔 유령밖에 없어요.<br />뒤로 가거나 나가보는게 어때요?
           </div>

@@ -35,7 +35,7 @@
     <div class="cover full-window">
       <div class="col-md-12">
         <div class='text-center'>
-          <strong><div id="domi"><strong class="err404_1">5</strong><img class="img5 up10" src="../static/img/common/wrench.png" alt="0" /><strong class="err404_2">0</strong></div><div class='white errdesc'>International Server Error!</div></strong>
+          <strong><div id="domi"><strong class="err404_1">5</strong><img class="img5 up10" src="/static/img/common/wrench.png" alt="0" /><strong class="err404_2">0</strong></div><div class='white errdesc'>International Server Error!</div></strong>
           <div class="white">
             점검 중인 페이지에요. 들어갈 수가 업ㄱㄴㅇㄳㄹㅇ !ERR
           </div>

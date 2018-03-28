@@ -96,12 +96,12 @@
 
                 case '413':
                   echo "요청의 크기가 너무 커요.";
-                  echo "<div class='little'>서버: 흐앗, 요청이 너무 커버렷!</div>";
+                  echo "<div class='little'>서버: 흐앙, 요청이 너무 커버렷!</div>";
                   break;
 
                 case '414':
                   echo "URL이 너무 길어요.";
-                  echo "<div class='little'>서버: 흐앗, URL이 너무 길어버렷!</div>";
+                  echo "<div class='little'>서버: 흐앙, URL이 너무 길어버렷!</div>";
                   break;
 
                 case '415':
@@ -112,13 +112,13 @@
                 case '416':
                   echo "페이지에서 해당 요청을 처리할 수 없어요.";
                   echo "<div class='little'>서버: 탕, 탕, 탕! 오발이야 소총수새꺄!</div>";
-                  echo '<br /><a href="https://namu.wiki/w/H%26K%20HK416"><img class="gunimg" src="../static/img/common/HK416F-S.jpg" alt="416"></a>';
+                  echo '<br /><a href="https://namu.wiki/w/H%26K%20HK416"><img class="gunimg" src="/static/img/common/HK416F-S.jpg" alt="416"></a>';
                   break;
 
                 case '417':
                   echo "예상 요청 헤더를 처리할 수 없어요.";
                   echo "<div class='little'>서버: 탕, 탕, 탕! 오발이야 지정사수새꺄!</div>";
-                  echo '<br /><a href="https://namu.wiki/w/H%26K%20HK417"><img class="gunimg" src="../static/img/common/HK417.jpg" alt="416"></a>';
+                  echo '<br /><a href="https://namu.wiki/w/H%26K%20HK417"><img class="gunimg" src="/static/img/common/HK417.jpg" alt="416"></a>';
                   break;
 
                 case '501':
