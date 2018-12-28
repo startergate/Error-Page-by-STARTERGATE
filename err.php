@@ -25,7 +25,7 @@
     <meta name="msapplication-TileImage" content="/static/img/favicon/donote/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
     <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
-    <title><?php echo $_GET['status'];?> - STARTERGATE</title>
+    <title><?=$_GET['status']?> - STARTERGATE</title>
     <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   	<link rel="stylesheet" type="text/css" href="./css/bg_style.css?ver=1.5">
   	<link rel="stylesheet" type="text/css" href="./css/master.css?ver=4">
@@ -35,7 +35,7 @@
     <div class="cover full-window">
       <div class="col-md-12">
         <p class='text-center'>
-          <strong id='domi'><?php echo $_GET['status'];?></strong>
+          <strong id='domi'><?=$_GET['status']?></strong>
           <div class="white">
             <?php
               switch ($_GET['status']) {
