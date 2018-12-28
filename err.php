@@ -1,7 +1,7 @@
 <?php
   if (empty($_GET['status'])) {
-    header('Location: ../index.php');
-    exit;
+      header('Location: ./404.html');
+      exit;
   }
 ?>
 <!DOCTYPE html>
