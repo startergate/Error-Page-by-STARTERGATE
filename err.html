@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="apple-touch-icon" sizes="57x57" href="/static/img/favicon/donote/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/static/img/favicon/donote/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/static/img/favicon/donote/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/static/img/favicon/donote/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/static/img/favicon/donote/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/static/img/favicon/donote/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/static/img/favicon/donote/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/static/img/favicon/donote/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/static/img/favicon/donote/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/static/img/favicon/donote/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/static/img/favicon/donote/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/static/img/favicon/donote/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/static/img/favicon/donote/favicon-16x16.png">
+    <link rel="manifest" href="/donote/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/static/img/favicon/donote/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+    <meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=no">
+    <meta charset="utf-8">
+    <title>ERROR!</title>
+    <link href="/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  	<link rel="stylesheet" type="text/css" href="./css/bg_style.css?ver=1.5">
+  	<link rel="stylesheet" type="text/css" href="./css/master.css?ver=4">
+  	<link rel="stylesheet" type="text/css" href="/Normalize.css">
+    <script type="text/javascript" sync>
+      window.onload = function() {
+        var html = '';
+        switch (getParameters('status')) {
+          case '400':
+            html = '잘못된 요청이에요.<div class=\'little\'>서버: 아니면 내가 멍청하든지.</div>';
+            document.getElementById('target').innerHTML = html;
+          break;
+
+          case '401':
+            html = '인증되지 않은 요청이에요.<div class=\'little\'>서버: Beep, UNAUTHORIZED!!!</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '402':
+            html = '결제가 필요한 요청이에요.<div class=\'little\'>서버: 결제가 안 되어있잖아! 다시 해와!</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '405':
+            html = '요청한 방법을 사용할 수 없어요.<div class=\'little\'>서버: 미안하지만 고든, 그건 안돼.</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '406':
+            html = '요청한 컨텐츠 특성으로 응답할 수 없어요.<div class=\'little\'>서버: 미안하지만 고든, 그건 우리가 할 수 없어.</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '407':
+            html = '프록시를 통한 인증이 필요해요.<div class=\'little\'>서버: 미안하지만 고든, 꺼져.</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '408':
+            html = '요청 대기 시간이 초과했어요.<div class=\'little\'>서버: 째깍째깍째깍째짝</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '409':
+            html = '요청을 처리하는 중에 충돌이 발생했어요.<div class=\'little\'>서버: 부우우웅 쾅.</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '410':
+            html = '사용자가 요청한 리소스가 영구적으로 삭제됬어요.<div class=\'little\'>서버: 분명히 여기다 뒀는데?</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '411':
+            html = '콘텐츠 길이 헤더가 너무 짧아요.<div class=\'little\'>서버: 너무 짧잖아! 다시 해와!.</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '412':
+            html = '요청한 사전조건을 만족하지 못했어요.<div class=\'little\'>서버: 나는 이걸 하기엔 너무 부족해(진지)</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '413':
+            html = '요청의 크기가 너무 커요.<div class=\'little\'>서버: 하읏, 요청이 너무 커버렷!</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '414':
+            html = 'URL이 너무 길어요.<div class=\'little\'>서버: 하읏, URL이 너무 길어버렷!</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '415':
+            html = '지원하지 않는 미디어 유형이에요.<div class=\'little\'>서버: <a href=\'https://www.youtube.com/watch?v=3K0RzZGpyds\'>Cuz, She is Dead!</a></div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '416':
+            html = '페이지에서 해당 요청을 처리할 수 없어요.<div class=\'little\'>서버: 탕, 탕, 탕! 오발이야 소총수새꺄!</div><br /><a href="https://namu.wiki/w/H%26K%20HK416"><img class="gunimg" src="/static/img/common/HK416F-S.jpg" alt="416"></a>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '417':
+            html = '예상 요청 헤더를 처리할 수 없어요.<div class=\'little\'>서버: 탕, 탕, 탕! 오발이야 지정사수새꺄!</div><br /><a href="https://namu.wiki/w/H%26K%20HK417"><img class="gunimg" src="/static/img/common/HK417.jpg" alt="416"></a>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '501':
+            html = '서버에서 요청을 수행할 수 없어요.<div class=\'little\'>서버: index.php요? 잠시만요...<br />(10분 후)501 Not Implemented</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '505':
+            html = '시간이 초과됬어요.<div class=\'little\'>서버: 째애애애애애애깍쨰애애ㅐㅐㅐ깍</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+
+          case '':
+            location.href = './404.html';
+            break;
+
+          default:
+            html = '알 수 없는 오류에요.<br />잠깐만, 아니 이게 왜 나오는거야!<div class=\'little\'>서버: 말도 안된다구 으허허</div>';
+            document.getElementById('target').innerHTML = html;
+            break;
+        }
+        document.getElementById('domi').innerHTML = getParameters('status')
+      }
+
+      function getParameters(paramName) {
+        var returnValue
+        var url = location.href
+        var parameters = (url.slice((url.indexOf('?')) + 1, url.length)).split('&')
+        for (var i = 0; i < parameters.length; i++) {
+          var varName = parameters[i].split('=')[0]
+          if (varName.toUpperCase() === paramName.toUpperCase()) {
+            returnValue = parameters[i].split('=')[1]
+            return decodeURIComponent(returnValue)
+          }
+        }
+      }
+    </script>
+  </head>
+  <body id="bge">
+    <div class="cover full-window">
+      <div class="col-md-12">
+        <p class='text-center'>
+          <strong id='domi'><script type="text/javascript">
+
+          </script></strong>
+          <div class="white" id='target'>
+
+          </div>
+        </p>
+        <div id="control">
+          <p class='text-center'>
+            <a href="../index.php" class="btn btn-default btn-lg">나가기</a>
+          </p>
+          </a>
+        </div>
+      </div>
+    </div>
+		<script src="/jquery/jquery-3.3.1.min.js"></script>
+    <script src="/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
